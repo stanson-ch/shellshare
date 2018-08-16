@@ -49,7 +49,7 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/extraplugins-lite.
-	$(MAKE) INSTALL_ROOT="$(CURDIR)"/debian/shellshare
+	$(MAKE) INSTALL_ROOT="$(CURDIR)"/debian/shellshare install
 
 
 # Build architecture-independent files here.
