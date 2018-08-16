@@ -1,0 +1,18 @@
+#!/bin/sh
+
+SCRIPT_DIR="/home/user/.local/share/scripts"
+
+[ -f "${SCRIPT_DIR}/share.sh" ] && exit 0
+
+# create example script
+
+mkdir -p "${SCRIPT_DIR}"
+
+cat > "${SCRIPT_DIR}/share.sh" <<EOF
+#!/bin/sh
+
+scp "$1" user@somehost.lan:/home/www/files
+
+EOF
+
+exit 0
