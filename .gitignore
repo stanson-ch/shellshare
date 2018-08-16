@@ -1,0 +1,10 @@
+Makefile
+*.o
+*.so
+configure-stamp
+build-stamp
+moc_*.cpp
+debian/*.log
+debian/*.substvars
+debian/files
+debian/shellshare
