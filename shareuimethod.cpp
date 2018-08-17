@@ -50,7 +50,7 @@ QString ShellShareUIMethod::title()
 
 QString ShellShareUIMethod::icon()
 {
-    return "icon-m-content-script";
+    return "icon-m-shellshare";
 }
 
 void ShellShareUIMethod::currentItems(const ShareUI::ItemContainer * items)
