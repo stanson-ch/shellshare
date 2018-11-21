@@ -11,7 +11,7 @@ mkdir -p "${SCRIPT_DIR}"
 cat > "${SCRIPT_DIR}/share.sh" <<EOF
 #!/bin/sh
 
-scp "$1" user@somehost.lan:/home/www/files
+scp "\$1" user@somehost.lan:/home/www/files
 
 EOF
 
