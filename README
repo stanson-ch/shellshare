@@ -1,0 +1,10 @@
+This is simple Share Plugin.
+
+Plugin just run shell script ( /home/user/.local/share/scripts/share.sh by default )
+with file full path as first argument for each file when user choose "User Script" 
+sharing option.
+
+Example script created by debian/postinst during installation has to be edited
+for your needs. By default it is just scp to some location.
+
+Have fun!
